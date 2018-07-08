@@ -26,3 +26,7 @@ services:
     App\Framework\Controller\:
         resource: '../src/Framework/Controller'
         tags: ['controller.service_arguments']
+
+    render_recipe_result:
+        alias: App\Framework\Service\RenderRecipeResult
+        public: true
