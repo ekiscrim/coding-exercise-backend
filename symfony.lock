@@ -1,4 +1,16 @@
 {
+    "doctrine/instantiator": {
+        "version": "1.1.0"
+    },
+    "friendsofsymfony/rest-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "258300d52be6ad59b32a888d5ddafbf9638540ff"
+        }
+    },
     "guzzlehttp/guzzle": {
         "version": "6.3.3"
     },
@@ -7,6 +19,30 @@
     },
     "guzzlehttp/psr7": {
         "version": "1.4.2"
+    },
+    "jms/metadata": {
+        "version": "1.6.0"
+    },
+    "jms/parser-lib": {
+        "version": "1.0.0"
+    },
+    "jms/serializer": {
+        "version": "1.12.1"
+    },
+    "jms/serializer-bundle": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "fe60ce509ef04a3f40da96e3979bc8d9b13b2372"
+        }
+    },
+    "phpcollection/phpcollection": {
+        "version": "0.5.0"
+    },
+    "phpoption/phpoption": {
+        "version": "1.5.0"
     },
     "psr/http-message": {
         "version": "1.0.1"
@@ -29,7 +65,13 @@
     "symfony/profiler-pack": {
         "version": "v1.0.3"
     },
+    "symfony/security-core": {
+        "version": "v4.1.1"
+    },
     "symfony/stopwatch": {
+        "version": "v4.1.1"
+    },
+    "symfony/templating": {
         "version": "v4.1.1"
     },
     "symfony/twig-bridge": {
@@ -67,5 +109,11 @@
     },
     "twig/twig": {
         "version": "v2.4.8"
+    },
+    "willdurand/jsonp-callback-validator": {
+        "version": "v1.1.0"
+    },
+    "willdurand/negotiation": {
+        "version": "v2.3.1"
     }
 }
